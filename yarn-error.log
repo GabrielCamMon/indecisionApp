@@ -1,0 +1,65 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add saas-loader@6.0.6 node-sass@4.5.3
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Java\jdk-12\bin;;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Roaming\npm;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.15.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/saas-loader: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:65939:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140464:22)
+      at Request.emit (events.js:189:13)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141436:10)
+      at Request.emit (events.js:189:13)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141358:12)
+      at Object.onceWrapper (events.js:277:13)
+      at IncomingMessage.emit (events.js:194:15)
+      at endReadableNT (_stream_readable.js:1125:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "indecision-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "serve": "live-server public/",
+      "build": "webpack",
+      "dev-server": "webpack-dev-server"
+    },
+    "author": "Gabriel Campos",
+    "license": "ISC",
+    "dependencies": {
+      "babel-cli": "^6.24.1",
+      "babel-core": "^6.25.0",
+      "babel-loader": "^7.1.1",
+      "babel-plugin-transform-class-properties": "^6.24.1",
+      "babel-preset-env": "^1.5.2",
+      "babel-preset-react": "^6.24.1",
+      "css-loader": "^0.28.4",
+      "live-server": "^1.2.1",
+      "react": "^16.0.0",
+      "react-dom": "^16.0.0",
+      "react-modal": "^2.2.2",
+      "style-loader": "^0.18.2",
+      "validator": "^8.0.0",
+      "webpack": "^3.1.0",
+      "webpack-dev-server": "^2.5.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
